@@ -15,7 +15,7 @@ public class BeatBox{
         "bass drum","closed hi-hat","open hi hat","acoustic snare","crash cymbal"
         ,"hand clap","high tom","hi bongo","maracas","whistle","low congo","cowbell","vibraslap",
         "low mid tom","high agogo","open hi congo"
-    };
+        };
     int[] instruments = {35,42,46,38,49,39,50,60,70,72,64,56,58,47,67,63};
     
     public static void main(String[] args) {
@@ -55,6 +55,7 @@ public class BeatBox{
         for(int i=0;i<16;i++){
             nameBox.add(new Label(instrumentNames[i]));
         }
+        
         background.add(BorderLayout.EAST,buttonBox);
         background.add(BorderLayout.WEST,nameBox);
         
